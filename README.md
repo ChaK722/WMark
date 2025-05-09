@@ -18,7 +18,7 @@
 
 ## 📦 Dependencies
 
-- **Qt 6** or **Qt 5** (Widgets, LinguistTools)
+- **Qt 6** (Widgets, LinguistTools)
 - [**Exiv2**](https://exiv2.org) – for reading EXIF metadata
 - [**LibRaw**](https://www.libraw.org) – for decoding RAW formats
 - [**OpenCV**](https://opencv.org) – for fast Gaussian blur rendering
