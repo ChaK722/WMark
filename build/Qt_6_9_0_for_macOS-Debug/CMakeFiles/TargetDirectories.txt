@@ -1,0 +1,9 @@
+/Users/chaksmac/WMark/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/WMark.dir
+/Users/chaksmac/WMark/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/chaksmac/WMark/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/chaksmac/WMark/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/list_install_components.dir
+/Users/chaksmac/WMark/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/install.dir
+/Users/chaksmac/WMark/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/install/local.dir
+/Users/chaksmac/WMark/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/install/strip.dir
+/Users/chaksmac/WMark/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/WMark_autogen_timestamp_deps.dir
+/Users/chaksmac/WMark/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/WMark_autogen.dir

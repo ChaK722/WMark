@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "/Users/chaksmac/WMark/build/Qt_6_9_0_for_macOS-Debug/WMark_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/chaksmac/WMark/build/Qt_6_9_0_for_macOS-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/chaksmac/WMark/build/Qt_6_9_0_for_macOS-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/chaksmac/WMark",
+	"CMAKE_SOURCE_DIR" : "/Users/chaksmac/WMark",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/Users/chaksmac/WMark/build/Qt_6_9_0_for_macOS-Debug/WMark_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/chaksmac/WMark/Lumix.png",
+		"/Users/chaksmac/WMark/Fujifilm.png",
+		"/Users/chaksmac/WMark/Leica.png",
+		"/Users/chaksmac/WMark/Canon.png",
+		"/Users/chaksmac/WMark/Sony.png",
+		"/Users/chaksmac/WMark/Nikon.png"
+	],
+	"LOCK_FILE" : "/Users/chaksmac/WMark/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/WMark_autogen.dir/AutoRcc_logos_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "logos" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_logos.cpp",
+	"RCC_EXECUTABLE" : "/Users/chaksmac/Qt/6.9.0/macos/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/chaksmac/WMark/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/WMark_autogen.dir/AutoRcc_logos_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/chaksmac/WMark/logos.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

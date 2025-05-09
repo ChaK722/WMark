@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/logos">
+        <file>Fujifilm.png</file>
+        <file>Canon.png</file>
+        <file>Leica.png</file>
+        <file>Lumix.png</file>
+        <file>Nikon.png</file>
+        <file>Sony.png</file>
+    </qresource>
+</RCC>
