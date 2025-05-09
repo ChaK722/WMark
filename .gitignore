@@ -1,0 +1,11 @@
+build/
+*.user
+*.pro.user
+*.o
+*.obj
+*.log
+*.tmp
+.DS_Store
+*.pyc
+__pycache__/
+
