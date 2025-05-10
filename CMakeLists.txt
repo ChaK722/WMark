@@ -22,23 +22,20 @@ set(PROJECT_SOURCES
     ${TS_FILES}
 )
 
-# ✅ 先定义目标
 qt_add_executable(WMark
     MANUAL_FINALIZATION
     ${PROJECT_SOURCES}
     logos.qrc
     ../Downloads/Fujifilm-logo.png ../Downloads/images.png ../Downloads/Leica_Camera_logo.svg.png ../Downloads/logo.html
 )
-# 找 OpenCV
+
 find_package(OpenCV REQUIRED)
 
-# 包含 OpenCV 的头文件
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-# 链接 OpenCV 库
 target_link_libraries(WMark PRIVATE ${OpenCV_LIBS})
 
-# ✅ 设置 libraw 与 exiv2 路径（Homebrew 默认路径）
+
 target_include_directories(WMark PRIVATE /opt/homebrew/include)
 target_link_libraries(WMark
     PRIVATE
@@ -49,7 +46,6 @@ target_link_libraries(WMark
 
 qt_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
 
-# ✅ macOS Bundle 设置
 if(${QT_VERSION} VERSION_LESS 6.1.0)
     set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.WMark)
 endif()
@@ -61,7 +57,6 @@ set_target_properties(WMark PROPERTIES
     WIN32_EXECUTABLE TRUE
 )
 
-# ✅ 安装与打包设置
 include(GNUInstallDirs)
 install(TARGETS WMark
     BUNDLE DESTINATION .
